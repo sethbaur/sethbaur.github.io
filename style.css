@@ -1,0 +1,81 @@
+body {
+	margin:0;
+}
+
+#container {
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:visible;
+	margin-top:0;
+}
+
+h1 {
+	margin:50px 0 0 -8px;
+	padding:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:124px;
+	line-height:95px;
+	float:left;
+}
+
+h2 {
+	margin:190px 0 0 0;
+	padding:0;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:24px;
+	line-height:25px;
+	float:right;
+	text-align:left;
+	width:400px;
+}
+
+#contents{
+	clear:both;
+	position:relative;
+	top:30px;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+    width:230px;
+    float:left;
+}
+
+li {
+	margin:20px 0;
+}
+
+a:link, a:visited {
+	font-size:32px;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#aaa;
+	text-decoration:none;
+	text-align:left;
+}
+
+#facebook a:hover {
+	color:blue;
+}
+
+#twitter a:hover {
+	color:#0099b9;
+}
+
+#tumblr a:hover {
+	color:#5C7480;
+}
+
+#flickr a:hover {
+	color:#ff0084;
+}
+
+#google a:hover {
+	color:red;
+}
+
+#github a:hover {
+    color:#008000;
+}
