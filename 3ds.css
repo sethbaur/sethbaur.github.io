@@ -1,0 +1,22 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 10px;
+}
