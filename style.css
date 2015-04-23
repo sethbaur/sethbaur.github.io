@@ -3,12 +3,16 @@ body {
 }
 
 #container {
+    padding:5px 0 0 5px;
+    width:auto;
 }
 
 h1 {
     font-family:Helvetica, Arial, sans-serif;
     font-size:124px;
     line-height:95px;
+    margin:0;
+    float:none;
 }
 
 h2 {
@@ -16,17 +20,23 @@ h2 {
     font-size:24px;
     line-height:25px;
     text-align:left;
+    float:none;
+    margin:15px 0 0 0;
+    width:auto;
 }
 
 #contents{
     clear:both;
     position:relative;
+    top:0;
 }
 
 ul {
     list-style-type:none;
     margin:0;
     padding:0;
+    width:auto;
+    float:none;
 }
 
 li {
@@ -65,37 +75,8 @@ a:link, a:visited {
     color:#008000;
 }
 
-@media only screen
-    and (max-width: 700px) {
-
-    ul {
-        width:auto;
-        float:none;
-    }
-
-    #container {
-        padding:5px 0 0 5px;
-        width:auto;
-    }
-
-    h1 {
-        margin:0;
-        float:none;
-    }
-
-    h2 {
-        float:none;
-        margin:15px 0 0 0;
-        width:auto;
-    }
-
-    #contents {
-        top:0;
-    }
-}
-
-@media only screen
-    and (min-width: 700px) {
+@media
+only screen and (min-width: 700px) {
 
     ul {
         width:230px;
