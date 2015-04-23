@@ -3,45 +3,30 @@ body {
 }
 
 #container {
-    width:700px;
-    margin-left:auto;
-    margin-right:auto;
-    overflow:visible;
-    margin-top:0;
 }
 
 h1 {
-    margin:50px 0 0 -8px;
-    padding:0;
     font-family:Helvetica, Arial, sans-serif;
     font-size:124px;
     line-height:95px;
-    float:left;
 }
 
 h2 {
-    margin:190px 0 0 0;
-    padding:0;
     font-family:Helvetica, Arial, sans-serif;
     font-size:24px;
     line-height:25px;
-    float:right;
     text-align:left;
-    width:400px;
 }
 
 #contents{
     clear:both;
     position:relative;
-    top:30px;
 }
 
 ul {
     list-style-type:none;
     margin:0;
     padding:0;
-    width:230px;
-    float:left;
 }
 
 li {
@@ -78,4 +63,63 @@ a:link, a:visited {
 
 #github a:hover {
     color:#008000;
+}
+
+@media only screen
+    and (max-width: 700px) {
+
+    ul {
+        width:auto;
+        float:none;
+    }
+
+    #container {
+        padding:5px 0 0 5px;
+        width:auto;
+    }
+
+    h1 {
+        margin:0;
+        float:none;
+    }
+
+    h2 {
+        float:none;
+        margin:15px 0 0 0;
+        width:auto;
+    }
+
+    #contents {
+        top:0;
+    }
+}
+
+@media only screen
+    and (min-width: 700px) {
+
+    ul {
+        width:230px;
+        float:left;
+    }
+
+    #container {
+        width:700px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    h1 {
+        margin:50px 0 0 -8px;
+        float:left;
+    }
+
+    h2 {
+        float:right;
+        margin:190px 0 0 0;
+        width:400px;
+    }
+
+    #contents {
+        top:30px;
+    }
 }
