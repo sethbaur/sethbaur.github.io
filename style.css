@@ -59,16 +59,16 @@ a:link, a:visited {
     color:#0099b9;
 }
 
-#tumblr a:hover {
-    color:#5C7480;
+#goodreads a:hover {
+    color:#2a190e;
 }
 
 #bgg a:hover {
     color:#3B4684;
 }
 
-#google a:hover {
-    color:red;
+#instagram a:hover {
+    color:#ac1779;
 }
 
 #github a:hover {
